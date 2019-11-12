@@ -15,7 +15,7 @@
 
 /dts-v1/;
 #include "exynos9820.dts"
-#include "../../../../../include/generated/autoconf.h"
+#include <dt-bindings/soc/samsung/d2s_conf.h>
 
 / {
 	dtb-hw_rev = <12>;

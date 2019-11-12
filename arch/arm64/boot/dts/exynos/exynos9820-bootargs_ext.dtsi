@@ -9,7 +9,7 @@
  * published by the Free Software Foundation.
  */
 
-#include "../../../../../include/generated/autoconf.h"
+#include <dt-bindings/soc/samsung/d2s_conf.h>
 
 / {
 	fragment@model {
