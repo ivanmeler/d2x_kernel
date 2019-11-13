@@ -1,3 +1,4 @@
+
 config ARM64
 	def_bool y
 	select ACPI_CCA_REQUIRED if ACPI
@@ -128,6 +129,12 @@ config ARM64
 
 config 64BIT
 	def_bool y
+
+config MODEL_D2S
+	bool "Samsung Galaxy Note10+"
+
+config MODEL_D1
+	bool "Samsung Galaxy Note10"
 
 config ARCH_PHYS_ADDR_T_64BIT
 	def_bool y
